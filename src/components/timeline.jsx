@@ -21,8 +21,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>AI Reseach Engineer at VinID <span>09/2019-Present</span></h2>
-                        <p>I have joined VinID as a reseach engineer. In here I'm be charge of reseach to solve problems based on AI foundation. Then deploy and deliver to our customers.</p>
+                        <h2>Data Scientist at VinID <span>2019-Present</span></h2>
+                        <p>I have joined VinID as a Data Scientist. At here I'm charge of research to solve problems based on my AI knowledge. Then deploy and deliver to our customers.</p>
                       </div>
                     </div>
                   </article>
@@ -32,8 +32,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>AI fresher at EYEQ Tech <span>10/2018-09/2019</span></h2>
-                        <p>I have joined as AI fresher. In here I have learned very much things about CNN model, RNN model as well as how to implement and deploy deep leaning model in production environment.Very much skills for engineer like NGINX, Docker, Socket IO, MongoDB. </p>
+                        <h2>AI Research Engineer at EYEQ Tech <span>2017-2019</span></h2>
+                        <p>I have joined as AI fresher. At here I have learned very much things about CNN model, RNN model as well as how to implement and deploy deep leaning model in production environment.Very much skills for engineer like NGINX, Docker, Socket IO, MongoDB. </p>
                       </div>
                     </div>
                   </article>
@@ -43,8 +43,8 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Elevator installation and maintenance engineer <span>2017-2018</span></h2>
-                        <p>I'm be in charge of install part of electricity for elevator. </p>
+                        <h2>Automotive Engineer <span>2017</span></h2>
+                        <p>Build a repository for communicate between Microcontroller and Peripheral using C++ language. </p>
                       </div>
                     </div>
                   </article>

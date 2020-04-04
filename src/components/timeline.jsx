@@ -22,7 +22,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>Data Scientist at VinID <span>2019-Present</span></h2>
-                        <p>I have joined VinID as a Data Scientist. At here I'm charge of research to solve problems based on my AI knowledge. Then deploy and deliver to our customers.</p>
+                        <p>I have joined VinID as a Data Scientist. At here I'm charge of research to solve problems based on my AI knowledges. Then deploy and deliver to our customers.</p>
                       </div>
                     </div>
                   </article>
@@ -33,7 +33,7 @@ export default class Timeline extends Component {
                       </div>
                       <div className="timeline-label">
                         <h2>AI Research Engineer at EYEQ Tech <span>2017-2019</span></h2>
-                        <p>I have joined as AI fresher. At here I have learned very much things about CNN model, RNN model as well as how to implement and deploy deep leaning model in production environment.Very much skills for engineer like NGINX, Docker, Socket IO, MongoDB. </p>
+                        <p>I have joined as AI fresher and then as AI Research Engineer. At here I have learned very much things about CNN model, RNN model as well as how to implement and deploy deep leaning model in production environment.Very much skills for engineer like NGINX, Docker, Socket IO, MongoDB. </p>
                       </div>
                     </div>
                   </article>
@@ -43,7 +43,7 @@ export default class Timeline extends Component {
                         <i className="icon-pen2" />
                       </div>
                       <div className="timeline-label">
-                        <h2>Automotive Engineer <span>2017</span></h2>
+                        <h2>Automotive Engineer Intern <span>2017</span></h2>
                         <p>Build a repository for communicate between Microcontroller and Peripheral using C++ language. </p>
                       </div>
                     </div>

@@ -4,10 +4,13 @@
   "private": true,
   "homepage": "https://luan1412167.github.io/myportfolio",
   "dependencies": {
+    "@langchain/community": "^0.2.9",
     "@langchain/openai": "^0.1.2",
     "dotenv": "^16.4.5",
     "gh-pages": "^2.1.1",
     "langchain": "^0.2.5",
+    "material-ui-dropzone": "^3.5.0",
+    "pdf-parse": "^1.1.1",
     "re-resizable": "^6.9.17",
     "react": "^16.8.3",
     "react-chatbot-kit": "^2.2.2",

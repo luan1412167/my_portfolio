@@ -1,3 +1,5 @@
+import UploadFiles from "./widgets/UploadFiles";
+
 const config = {
   botName: "ChatBot",
   initialMessages: [
@@ -14,6 +16,14 @@ const config = {
       backgroundColor: "#376B7E",
     },
   },
+
+  widgets: [
+    {
+      widgetName: "uploadFiles",
+      widgetFunc: (props) => <UploadFiles/>
+    }
+  
+  ]
 };
 
 export default config;

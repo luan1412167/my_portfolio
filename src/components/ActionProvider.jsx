@@ -11,14 +11,29 @@ dotenv.config();
 class ActionProvider extends React.Component {
   // The action provider receives createChatBotMessage which you can use to define the bots response, and 
   // the setState function that allows for manipulating the bots internal state.
-  constructor(createChatBotMessage, setStateFunc) {
+  constructor(createChatBotMessage, setStateFunc, createClientMessage) {
     super();
     this.createChatBotMessage = createChatBotMessage;
     this.setState = setStateFunc;
+    this.createClientMessage = createClientMessage;
     // console.log(process.env.REACT_APP_OPENAI_API_KEY);
     this.chatOpenAI = new ChatOpenAI({"apiKey": process.env.REACT_APP_OPENAI_API_KEY, "modelName": "gpt-3.5-turbo"});
     this.parser = new StringOutputParser();
+
   }
+  handleUploadFiles = () => {
+    const message = this.createChatBotMessage(
+      "Sure, I can help you with that. Please upload the files.",
+      {
+        widget: "uploadFiles",
+        loading: true,
+        terminateLoading: true,
+        withAvatar: true
+      }
+    );
+
+    this.addMessageToState(message);
+  };
 
   // You can define methods here to define how the bot should respond to certain actions
   greet() {

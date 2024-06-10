@@ -56,3 +56,14 @@
 .chatbot-popup * {
   font-size: 18px !important;
 }
+
+.chatbot-wrapper {
+  position: relative;
+}
+
+.behind-send-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  /* Add your styles here */
+}
